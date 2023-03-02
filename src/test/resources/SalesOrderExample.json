@@ -1,0 +1,289 @@
+{
+    "id": 29079293,
+    "mobileDateCreated": "2023-02-26T07:14:32Z",
+    "customer": {
+        "fiscalRegime": null,
+        "code": "9112069",
+        "address": "Calle La Rivera, 316",
+        "comments": "Mi Cliente Favorito",
+        "facturamaCustomerId": null,
+        "city": "Cuernavaca",
+        "postalCode": "62370",
+        "businessName": null,
+        "description": "Gru Inc",
+        "enabled": true,
+        "priceList": {
+            "code": "LP001",
+            "name": "Principal",
+            "id": 35287,
+            "enabled": true
+        },
+        "balance": 10.0,
+        "zone": {
+            "color": "#2e3e49",
+            "description": "Zona 1",
+            "id": 264181,
+            "enabled": true
+        },
+        "cfdiUse": null,
+        "paymentForms": null,
+        "paymentMethods": null,
+        "id": 9112069,
+        "neighborhood": "Flores Magón",
+        "credit": 500000.0
+    },
+    "createdBy": {
+        "name": "German Arrieta",
+        "extras": "The one and only",
+        "id": 74120,
+        "enabled": true,
+        "username": "arrieta.ger@gmail.com"
+    },
+    "items": [
+        {
+            "isReturn": false,
+            "product": {
+                "code": "M-001",
+                "taxOptional": null,
+                "description": "Rayo Encogedor",
+                "satProductCode": "",
+                "enabled": true,
+                "satProduct": null,
+                "price": 1890.0,
+                "details": "The SR-6, more often referred to as just the Shrink Ray, is a laser weapon that shrinks its targets temporarily with an energy beam.",
+                "id": 4208880,
+                "minimumPrice": 1300.0,
+                "barcode": null,
+                "basePrice": 1750.0,
+                "quantity": 100.0,
+                "boostSales": false,
+                "satUnitCode": "",
+                "pictureUrl": "https://product-pictures.handy.la/product_thlgv9bksur1ke7pea2j87icx1868ac69e96.JPG",
+                "externalId": null,
+                "tax": {
+                    "amount": 8.0,
+                    "name": "IVA",
+                    "id": 2,
+                    "enabled": true
+                },
+                "boostSalesDescription": "",
+                "unit": {
+                    "code": "PZA",
+                    "description": "Pieza",
+                    "id": 46448,
+                    "enabled": true
+                },
+                "hasBeenSold": false,
+                "satUnit": null,
+                "applyDiscounts": false,
+                "family": {
+                    "description": "Mecánicos",
+                    "id": 228561,
+                    "enabled": true
+                },
+                "category": {
+                    "description": "Weapons",
+                    "id": 31166,
+                    "enabled": true
+                }
+            },
+            "quantity": 1.0,
+            "comments": null,
+            "originalPrice": 1890.0,
+            "isReward": false,
+            "taxOptional": null,
+            "priceType": "REGULAR",
+            "discount": "Descuento de 3.0% para cliente",
+            "delivered": 0.0,
+            "tax": {
+                "amount": 8.0,
+                "name": "IVA",
+                "id": 2,
+                "enabled": true
+            },
+            "promoIds": null,
+            "discountPercentage": 3.0,
+            "total": 1833.3,
+            "price": 1833.3,
+            "id": 99902587,
+            "promoNames": null
+        },
+        {
+            "isReturn": false,
+            "product": {
+                "code": "M-002",
+                "taxOptional": {
+                    "amount": 8.0,
+                    "name": "IVA",
+                    "id": 2,
+                    "enabled": true
+                },
+                "description": "Airship",
+                "satProductCode": "",
+                "enabled": true,
+                "satProduct": null,
+                "price": 37200.0,
+                "details": null,
+                "id": 4208882,
+                "minimumPrice": 24500.0,
+                "barcode": null,
+                "basePrice": 30000.0,
+                "quantity": 10.0,
+                "boostSales": false,
+                "satUnitCode": "",
+                "pictureUrl": "https://cdn.handy.la/products/generic.jpg",
+                "externalId": null,
+                "tax": {
+                    "amount": 16.0,
+                    "name": "IVA",
+                    "id": 1,
+                    "enabled": true
+                },
+                "boostSalesDescription": "",
+                "unit": {
+                    "code": "PZA",
+                    "description": "Pieza",
+                    "id": 46448,
+                    "enabled": true
+                },
+                "hasBeenSold": false,
+                "satUnit": null,
+                "applyDiscounts": false,
+                "family": {
+                    "description": "Mecánicos",
+                    "id": 228561,
+                    "enabled": true
+                },
+                "category": {
+                    "description": "Vehicles",
+                    "id": 31167,
+                    "enabled": true
+                }
+            },
+            "quantity": 1.0,
+            "comments": null,
+            "originalPrice": 34800.0,
+            "isReward": false,
+            "taxOptional": null,
+            "priceType": "REGULAR",
+            "discount": "Descuento de 3.0% para cliente",
+            "delivered": 0.0,
+            "tax": {
+                "amount": 16.0,
+                "name": "IVA",
+                "id": 1,
+                "enabled": true
+            },
+            "promoIds": null,
+            "discountPercentage": 3.0,
+            "total": 33756.0,
+            "price": 33756.0,
+            "id": 99902588,
+            "promoNames": null
+        },
+        {
+            "isReturn": false,
+            "product": {
+                "code": "Q-001",
+                "taxOptional": null,
+                "description": "Rayo Congelador",
+                "satProductCode": "",
+                "enabled": true,
+                "satProduct": null,
+                "price": 1740.0,
+                "details": "The freeze ray which was invented by Dr.Nefario, is Felonius Gru's signature weapon and when fired it projects a ray that freezes anything instantly.",
+                "id": 4208879,
+                "minimumPrice": 1150.0,
+                "barcode": null,
+                "basePrice": 1500.0,
+                "quantity": 50.0,
+                "boostSales": false,
+                "satUnitCode": "",
+                "pictureUrl": "https://s3.amazonaws.com/handy-product-picture/product_bx573nvvplut8011r7h9h4j5c1868ac1a395.JPG",
+                "externalId": null,
+                "tax": {
+                    "amount": 16.0,
+                    "name": "IVA",
+                    "id": 1,
+                    "enabled": true
+                },
+                "boostSalesDescription": "",
+                "unit": {
+                    "code": "PZA",
+                    "description": "Pieza",
+                    "id": 46448,
+                    "enabled": true
+                },
+                "hasBeenSold": false,
+                "satUnit": null,
+                "applyDiscounts": false,
+                "family": {
+                    "description": "Químicos",
+                    "id": 228560,
+                    "enabled": true
+                },
+                "category": {
+                    "description": "Weapons",
+                    "id": 31166,
+                    "enabled": true
+                }
+            },
+            "quantity": 1.0,
+            "comments": null,
+            "originalPrice": 1740.0,
+            "isReward": true,
+            "taxOptional": null,
+            "priceType": "REWARD",
+            "discount": "30",
+            "delivered": 0.0,
+            "tax": {
+                "amount": 16.0,
+                "name": "IVA",
+                "id": 1,
+                "enabled": true
+            },
+            "promoIds": "ZjSjk53un1omS8Ac9yBt",
+            "discountPercentage": 30.0,
+            "total": 1218.0,
+            "price": 1218.0,
+            "id": 99902589,
+            "promoNames": "Super Promo"
+        }
+    ],
+    "type": {
+        "description": "Tipo de pedido efectivo y contabilizable",
+        "id": 35801,
+        "enabled": true
+    },
+    "exported": false,
+    "deleted": false,
+    "sellerComment": "Pedido para aprovechar la promo",
+    "scheduledDateForDelivery": "2023-03-03T16:00:00Z",
+    "latitude": null,
+    "longitude": null,
+    "accuracy": 0.0,
+    "tookInPlace": false,
+    "priceList": {
+        "code": "LP001",
+        "name": "Principal",
+        "id": 35287,
+        "enabled": true
+    },
+    "totalSales": 36807.300000,
+    "totalTax": 4959.80,
+    "totalBeforeTax": 31847.500000,
+    "billable": false,
+    "billed": false,
+    "routeSalePaymentType": null,
+    "dateCreated": "2023-02-26T07:14:32Z",
+    "promoIds": "ZjSjk53un1omS8Ac9yBt,",
+    "promoNames": "Super Promo,",
+    "networkSignalQuality": -1,
+    "creationSource": "WEB",
+    "dateDeleted": null,
+    "deletedBy": null,
+    "editedFrom": null,
+    "isEdited": false,
+    "salesType": "Preventa",
+    "externalId": null
+}

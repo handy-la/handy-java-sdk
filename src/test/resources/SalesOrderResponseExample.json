@@ -1,0 +1,902 @@
+{
+    "pagination": {
+        "totalCount": 2,
+        "totalPages": 1,
+        "currentPage": "https://app.handy.la/api/v2/salesOrder?page=1",
+        "nextPage": null,
+        "prevPage": null,
+        "firstPage": "https://app.handy.la/api/v2/salesOrder?page=1",
+        "lastPage": "https://app.handy.la/api/v2/salesOrder?page=1"
+    },
+    "salesOrders": [
+        {
+            "id": 29079293,
+            "mobileDateCreated": "2023-02-26T07:14:32Z",
+            "customer": {
+                "fiscalRegime": null,
+                "code": "9112069",
+                "address": "Calle La Rivera, 316",
+                "comments": "Mi Cliente Favorito",
+                "facturamaCustomerId": null,
+                "city": "Cuernavaca",
+                "postalCode": "62370",
+                "businessName": null,
+                "description": "Gru Inc",
+                "enabled": true,
+                "priceList": {
+                    "code": "LP001",
+                    "name": "Principal",
+                    "id": 35287,
+                    "enabled": true
+                },
+                "balance": 10.0,
+                "zone": {
+                    "color": "#2e3e49",
+                    "description": "Zona 1",
+                    "id": 264181,
+                    "enabled": true
+                },
+                "cfdiUse": null,
+                "paymentForms": null,
+                "paymentMethods": null,
+                "id": 9112069,
+                "neighborhood": "Flores Magón",
+                "credit": 500000.0
+            },
+            "createdBy": {
+                "name": "German Arrieta",
+                "extras": "The one and only",
+                "id": 74120,
+                "enabled": true,
+                "username": "arrieta.ger@gmail.com"
+            },
+            "items": [
+                {
+                    "isReturn": false,
+                    "product": {
+                        "code": "M-001",
+                        "taxOptional": null,
+                        "description": "Rayo Encogedor",
+                        "satProductCode": "",
+                        "enabled": true,
+                        "satProduct": null,
+                        "price": 1890.0,
+                        "details": "The SR-6, more often referred to as just the Shrink Ray, is a laser weapon that shrinks its targets temporarily with an energy beam.",
+                        "id": 4208880,
+                        "minimumPrice": 1300.0,
+                        "barcode": null,
+                        "basePrice": 1750.0,
+                        "quantity": 100.0,
+                        "boostSales": false,
+                        "satUnitCode": "",
+                        "pictureUrl": "https://product-pictures.handy.la/product_thlgv9bksur1ke7pea2j87icx1868ac69e96.JPG",
+                        "externalId": null,
+                        "tax": {
+                            "amount": 8.0,
+                            "name": "IVA",
+                            "id": 2,
+                            "enabled": true
+                        },
+                        "boostSalesDescription": "",
+                        "unit": {
+                            "code": "PZA",
+                            "description": "Pieza",
+                            "id": 46448,
+                            "enabled": true
+                        },
+                        "hasBeenSold": false,
+                        "satUnit": null,
+                        "applyDiscounts": false,
+                        "family": {
+                            "description": "Mecánicos",
+                            "id": 228561,
+                            "enabled": true
+                        },
+                        "category": {
+                            "description": "Weapons",
+                            "id": 31166,
+                            "enabled": true
+                        }
+                    },
+                    "quantity": 1.0,
+                    "comments": null,
+                    "originalPrice": 1890.0,
+                    "isReward": false,
+                    "taxOptional": null,
+                    "priceType": "REGULAR",
+                    "discount": "Descuento de 3.0% para cliente",
+                    "delivered": 0.0,
+                    "tax": {
+                        "amount": 8.0,
+                        "name": "IVA",
+                        "id": 2,
+                        "enabled": true
+                    },
+                    "promoIds": null,
+                    "discountPercentage": 3.0,
+                    "total": 1833.3,
+                    "price": 1833.3,
+                    "id": 99902587,
+                    "promoNames": null
+                },
+                {
+                    "isReturn": false,
+                    "product": {
+                        "code": "M-002",
+                        "taxOptional": {
+                            "amount": 8.0,
+                            "name": "IVA",
+                            "id": 2,
+                            "enabled": true
+                        },
+                        "description": "Airship",
+                        "satProductCode": "",
+                        "enabled": true,
+                        "satProduct": null,
+                        "price": 37200.0,
+                        "details": null,
+                        "id": 4208882,
+                        "minimumPrice": 24500.0,
+                        "barcode": null,
+                        "basePrice": 30000.0,
+                        "quantity": 10.0,
+                        "boostSales": false,
+                        "satUnitCode": "",
+                        "pictureUrl": "https://cdn.handy.la/products/generic.jpg",
+                        "externalId": null,
+                        "tax": {
+                            "amount": 16.0,
+                            "name": "IVA",
+                            "id": 1,
+                            "enabled": true
+                        },
+                        "boostSalesDescription": "",
+                        "unit": {
+                            "code": "PZA",
+                            "description": "Pieza",
+                            "id": 46448,
+                            "enabled": true
+                        },
+                        "hasBeenSold": false,
+                        "satUnit": null,
+                        "applyDiscounts": false,
+                        "family": {
+                            "description": "Mecánicos",
+                            "id": 228561,
+                            "enabled": true
+                        },
+                        "category": {
+                            "description": "Vehicles",
+                            "id": 31167,
+                            "enabled": true
+                        }
+                    },
+                    "quantity": 1.0,
+                    "comments": null,
+                    "originalPrice": 34800.0,
+                    "isReward": false,
+                    "taxOptional": null,
+                    "priceType": "REGULAR",
+                    "discount": "Descuento de 3.0% para cliente",
+                    "delivered": 0.0,
+                    "tax": {
+                        "amount": 16.0,
+                        "name": "IVA",
+                        "id": 1,
+                        "enabled": true
+                    },
+                    "promoIds": null,
+                    "discountPercentage": 3.0,
+                    "total": 33756.0,
+                    "price": 33756.0,
+                    "id": 99902588,
+                    "promoNames": null
+                },
+                {
+                    "isReturn": false,
+                    "product": {
+                        "code": "Q-001",
+                        "taxOptional": null,
+                        "description": "Rayo Congelador",
+                        "satProductCode": "",
+                        "enabled": true,
+                        "satProduct": null,
+                        "price": 1740.0,
+                        "details": "The freeze ray which was invented by Dr.Nefario, is Felonius Gru's signature weapon and when fired it projects a ray that freezes anything instantly.",
+                        "id": 4208879,
+                        "minimumPrice": 1150.0,
+                        "barcode": null,
+                        "basePrice": 1500.0,
+                        "quantity": 50.0,
+                        "boostSales": false,
+                        "satUnitCode": "",
+                        "pictureUrl": "https://s3.amazonaws.com/handy-product-picture/product_bx573nvvplut8011r7h9h4j5c1868ac1a395.JPG",
+                        "externalId": null,
+                        "tax": {
+                            "amount": 16.0,
+                            "name": "IVA",
+                            "id": 1,
+                            "enabled": true
+                        },
+                        "boostSalesDescription": "",
+                        "unit": {
+                            "code": "PZA",
+                            "description": "Pieza",
+                            "id": 46448,
+                            "enabled": true
+                        },
+                        "hasBeenSold": false,
+                        "satUnit": null,
+                        "applyDiscounts": false,
+                        "family": {
+                            "description": "Químicos",
+                            "id": 228560,
+                            "enabled": true
+                        },
+                        "category": {
+                            "description": "Weapons",
+                            "id": 31166,
+                            "enabled": true
+                        }
+                    },
+                    "quantity": 1.0,
+                    "comments": null,
+                    "originalPrice": 1740.0,
+                    "isReward": true,
+                    "taxOptional": null,
+                    "priceType": "REWARD",
+                    "discount": "30",
+                    "delivered": 0.0,
+                    "tax": {
+                        "amount": 16.0,
+                        "name": "IVA",
+                        "id": 1,
+                        "enabled": true
+                    },
+                    "promoIds": "ZjSjk53un1omS8Ac9yBt",
+                    "discountPercentage": 30.0,
+                    "total": 1218.0,
+                    "price": 1218.0,
+                    "id": 99902589,
+                    "promoNames": "Super Promo"
+                }
+            ],
+            "type": {
+                "description": "Tipo de pedido efectivo y contabilizable",
+                "id": 35801,
+                "enabled": true
+            },
+            "exported": false,
+            "deleted": false,
+            "sellerComment": "Pedido para aprovechar la promo",
+            "scheduledDateForDelivery": "2023-03-03T16:00:00Z",
+            "latitude": null,
+            "longitude": null,
+            "accuracy": 0.0,
+            "tookInPlace": false,
+            "priceList": {
+                "code": "LP001",
+                "name": "Principal",
+                "id": 35287,
+                "enabled": true
+            },
+            "totalSales": 36807.300000,
+            "totalTax": 4959.80,
+            "totalBeforeTax": 31847.500000,
+            "billable": false,
+            "billed": false,
+            "routeSalePaymentType": null,
+            "dateCreated": "2023-02-26T07:14:32Z",
+            "promoIds": "ZjSjk53un1omS8Ac9yBt,",
+            "promoNames": "Super Promo,",
+            "networkSignalQuality": -1,
+            "creationSource": "WEB",
+            "dateDeleted": null,
+            "deletedBy": null,
+            "editedFrom": null,
+            "isEdited": false,
+            "salesType": "Preventa",
+            "externalId": null
+        },
+        {
+            "id": 29079294,
+            "mobileDateCreated": "2023-02-26T07:17:40Z",
+            "customer": {
+                "fiscalRegime": null,
+                "code": "9112069",
+                "address": "Calle La Rivera, 316",
+                "comments": "Mi Cliente Favorito",
+                "facturamaCustomerId": null,
+                "city": "Cuernavaca",
+                "postalCode": "62370",
+                "businessName": null,
+                "description": "Gru Inc",
+                "enabled": true,
+                "priceList": {
+                    "code": "LP001",
+                    "name": "Principal",
+                    "id": 35287,
+                    "enabled": true
+                },
+                "balance": 10.0,
+                "zone": {
+                    "color": "#2e3e49",
+                    "description": "Zona 1",
+                    "id": 264181,
+                    "enabled": true
+                },
+                "cfdiUse": null,
+                "paymentForms": null,
+                "paymentMethods": null,
+                "id": 9112069,
+                "neighborhood": "Flores Magón",
+                "credit": 500000.0
+            },
+            "createdBy": {
+                "name": "German Arrieta",
+                "extras": "The one and only",
+                "id": 74120,
+                "enabled": true,
+                "username": "arrieta.ger@gmail.com"
+            },
+            "items": [
+                {
+                    "isReturn": false,
+                    "product": {
+                        "code": "E-001",
+                        "taxOptional": null,
+                        "description": "Laser Gun",
+                        "satProductCode": "",
+                        "enabled": true,
+                        "satProduct": null,
+                        "price": 1000.0,
+                        "details": "The Laser Gun is one of the many weapons that Gru is known to use.",
+                        "id": 4208881,
+                        "minimumPrice": 830.0,
+                        "barcode": "598374593847593485734",
+                        "basePrice": 1000.0,
+                        "quantity": 94.0,
+                        "boostSales": false,
+                        "satUnitCode": "",
+                        "pictureUrl": "https://s3.amazonaws.com/handy-product-picture/product_aitrun81j3syj0s2ra6wi9anm1868acc1a26.JPG",
+                        "externalId": null,
+                        "tax": {
+                            "amount": 0.0,
+                            "name": "IVA",
+                            "id": 82,
+                            "enabled": true
+                        },
+                        "boostSalesDescription": "",
+                        "unit": {
+                            "code": "PZA",
+                            "description": "Pieza",
+                            "id": 46448,
+                            "enabled": true
+                        },
+                        "hasBeenSold": false,
+                        "satUnit": null,
+                        "applyDiscounts": false,
+                        "family": {
+                            "description": "Explosivos",
+                            "id": 228559,
+                            "enabled": true
+                        },
+                        "category": {
+                            "description": "Weapons",
+                            "id": 31166,
+                            "enabled": true
+                        }
+                    },
+                    "quantity": 3.0,
+                    "comments": null,
+                    "originalPrice": 970.0,
+                    "isReward": false,
+                    "taxOptional": null,
+                    "priceType": "REGULAR",
+                    "discount": "Descuento de 3.0% para cliente",
+                    "delivered": 0.0,
+                    "tax": {
+                        "amount": 0.0,
+                        "name": "IVA",
+                        "id": 82,
+                        "enabled": true
+                    },
+                    "promoIds": null,
+                    "discountPercentage": 3.0,
+                    "total": 2822.7,
+                    "price": 940.9,
+                    "id": 99902590,
+                    "promoNames": null
+                }
+            ],
+            "type": {
+                "description": "Tipo de pedido efectivo y contabilizable",
+                "id": 35801,
+                "enabled": true
+            },
+            "exported": false,
+            "deleted": false,
+            "sellerComment": "Pedido super importante",
+            "scheduledDateForDelivery": "2023-02-27T06:00:00Z",
+            "latitude": null,
+            "longitude": null,
+            "accuracy": 0.0,
+            "tookInPlace": false,
+            "priceList": {
+                "code": "LP001",
+                "name": "Principal",
+                "id": 35287,
+                "enabled": true
+            },
+            "totalSales": 2822.700000,
+            "totalTax": 0.00,
+            "totalBeforeTax": 2822.700000,
+            "billable": false,
+            "billed": false,
+            "routeSalePaymentType": null,
+            "dateCreated": "2023-02-26T07:17:40Z",
+            "promoIds": null,
+            "promoNames": null,
+            "networkSignalQuality": -1,
+            "creationSource": "WEB",
+            "dateDeleted": null,
+            "deletedBy": null,
+            "editedFrom": {
+                "id": 29079292,
+                "mobileDateCreated": "2023-02-26T07:12:16Z",
+                "customer": {
+                    "fiscalRegime": null,
+                    "code": "9112069",
+                    "address": "Calle La Rivera, 316",
+                    "comments": "Mi Cliente Favorito",
+                    "facturamaCustomerId": null,
+                    "city": "Cuernavaca",
+                    "postalCode": "62370",
+                    "businessName": null,
+                    "description": "Gru Inc",
+                    "enabled": true,
+                    "priceList": {
+                        "code": "LP001",
+                        "name": "Principal",
+                        "id": 35287,
+                        "enabled": true
+                    },
+                    "balance": 10.0,
+                    "zone": {
+                        "color": "#2e3e49",
+                        "description": "Zona 1",
+                        "id": 264181,
+                        "enabled": true
+                    },
+                    "cfdiUse": null,
+                    "paymentForms": null,
+                    "paymentMethods": null,
+                    "id": 9112069,
+                    "neighborhood": "Flores Magón",
+                    "credit": 500000.0
+                },
+                "createdBy": {
+                    "name": "German Arrieta",
+                    "extras": "The one and only",
+                    "id": 74120,
+                    "enabled": true,
+                    "username": "arrieta.ger@gmail.com"
+                },
+                "items": [
+                    {
+                        "isReturn": false,
+                        "product": {
+                            "code": "E-001",
+                            "taxOptional": null,
+                            "description": "Laser Gun",
+                            "satProductCode": "",
+                            "enabled": true,
+                            "satProduct": null,
+                            "price": 1000.0,
+                            "details": "The Laser Gun is one of the many weapons that Gru is known to use.",
+                            "id": 4208881,
+                            "minimumPrice": 830.0,
+                            "barcode": "598374593847593485734",
+                            "basePrice": 1000.0,
+                            "quantity": 94.0,
+                            "boostSales": false,
+                            "satUnitCode": "",
+                            "pictureUrl": "https://s3.amazonaws.com/handy-product-picture/product_aitrun81j3syj0s2ra6wi9anm1868acc1a26.JPG",
+                            "externalId": null,
+                            "tax": {
+                                "amount": 0.0,
+                                "name": "IVA",
+                                "id": 82,
+                                "enabled": true
+                            },
+                            "boostSalesDescription": "",
+                            "unit": {
+                                "code": "PZA",
+                                "description": "Pieza",
+                                "id": 46448,
+                                "enabled": true
+                            },
+                            "hasBeenSold": false,
+                            "satUnit": null,
+                            "applyDiscounts": false,
+                            "family": {
+                                "description": "Explosivos",
+                                "id": 228559,
+                                "enabled": true
+                            },
+                            "category": {
+                                "description": "Weapons",
+                                "id": 31166,
+                                "enabled": true
+                            }
+                        },
+                        "quantity": 3.0,
+                        "comments": null,
+                        "originalPrice": 1000.0,
+                        "isReward": false,
+                        "taxOptional": null,
+                        "priceType": "REGULAR",
+                        "discount": "Descuento de 3.0% para cliente",
+                        "delivered": 0.0,
+                        "tax": {
+                            "amount": 0.0,
+                            "name": "IVA",
+                            "id": 82,
+                            "enabled": true
+                        },
+                        "promoIds": null,
+                        "discountPercentage": 3.0,
+                        "total": 2910.0,
+                        "price": 970.0,
+                        "id": 99902585,
+                        "promoNames": null
+                    },
+                    {
+                        "isReturn": false,
+                        "product": {
+                            "code": "M-002",
+                            "taxOptional": {
+                                "amount": 8.0,
+                                "name": "IVA",
+                                "id": 2,
+                                "enabled": true
+                            },
+                            "description": "Airship",
+                            "satProductCode": "",
+                            "enabled": true,
+                            "satProduct": null,
+                            "price": 37200.0,
+                            "details": null,
+                            "id": 4208882,
+                            "minimumPrice": 24500.0,
+                            "barcode": null,
+                            "basePrice": 30000.0,
+                            "quantity": 10.0,
+                            "boostSales": false,
+                            "satUnitCode": "",
+                            "pictureUrl": "https://cdn.handy.la/products/generic.jpg",
+                            "externalId": null,
+                            "tax": {
+                                "amount": 16.0,
+                                "name": "IVA",
+                                "id": 1,
+                                "enabled": true
+                            },
+                            "boostSalesDescription": "",
+                            "unit": {
+                                "code": "PZA",
+                                "description": "Pieza",
+                                "id": 46448,
+                                "enabled": true
+                            },
+                            "hasBeenSold": false,
+                            "satUnit": null,
+                            "applyDiscounts": false,
+                            "family": {
+                                "description": "Mecánicos",
+                                "id": 228561,
+                                "enabled": true
+                            },
+                            "category": {
+                                "description": "Vehicles",
+                                "id": 31167,
+                                "enabled": true
+                            }
+                        },
+                        "quantity": 1.0,
+                        "comments": null,
+                        "originalPrice": 34800.0,
+                        "isReward": false,
+                        "taxOptional": null,
+                        "priceType": "REGULAR",
+                        "discount": "Descuento de 3.0% para cliente",
+                        "delivered": 0.0,
+                        "tax": {
+                            "amount": 16.0,
+                            "name": "IVA",
+                            "id": 1,
+                            "enabled": true
+                        },
+                        "promoIds": null,
+                        "discountPercentage": 3.0,
+                        "total": 33756.0,
+                        "price": 33756.0,
+                        "id": 99902586,
+                        "promoNames": null
+                    }
+                ],
+                "type": {
+                    "description": "Tipo de pedido efectivo y contabilizable",
+                    "id": 35801,
+                    "enabled": true
+                },
+                "exported": false,
+                "deleted": true,
+                "sellerComment": "Pedido super importante",
+                "scheduledDateForDelivery": "2023-02-27T06:00:00Z",
+                "latitude": null,
+                "longitude": null,
+                "accuracy": 0.0,
+                "tookInPlace": false,
+                "priceList": {
+                    "code": "LP001",
+                    "name": "Principal",
+                    "id": 35287,
+                    "enabled": true
+                },
+                "totalSales": 36666.000000,
+                "totalTax": 4656.00,
+                "totalBeforeTax": 32010.000000,
+                "billable": false,
+                "billed": false,
+                "routeSalePaymentType": null,
+                "dateCreated": "2023-02-26T07:12:16Z",
+                "promoIds": null,
+                "promoNames": null,
+                "networkSignalQuality": -1,
+                "creationSource": "WEB",
+                "dateDeleted": "2023-02-26T07:17:40Z",
+                "deletedBy": {
+                    "name": "German Arrieta",
+                    "extras": "The one and only",
+                    "id": 74120,
+                    "enabled": true,
+                    "username": "arrieta.ger@gmail.com"
+                },
+                "editedFrom": {
+                    "id": 29079290,
+                    "mobileDateCreated": "2023-02-26T06:37:42Z",
+                    "customer": {
+                        "fiscalRegime": null,
+                        "code": "9112069",
+                        "address": "Calle La Rivera, 316",
+                        "comments": "Mi Cliente Favorito",
+                        "facturamaCustomerId": null,
+                        "city": "Cuernavaca",
+                        "postalCode": "62370",
+                        "businessName": null,
+                        "description": "Gru Inc",
+                        "enabled": true,
+                        "priceList": {
+                            "code": "LP001",
+                            "name": "Principal",
+                            "id": 35287,
+                            "enabled": true
+                        },
+                        "balance": 10.0,
+                        "zone": {
+                            "color": "#2e3e49",
+                            "description": "Zona 1",
+                            "id": 264181,
+                            "enabled": true
+                        },
+                        "cfdiUse": null,
+                        "paymentForms": null,
+                        "paymentMethods": null,
+                        "id": 9112069,
+                        "neighborhood": "Flores Magón",
+                        "credit": 500000.0
+                    },
+                    "createdBy": {
+                        "name": "German Arrieta",
+                        "extras": "The one and only",
+                        "id": 74120,
+                        "enabled": true,
+                        "username": "arrieta.ger@gmail.com"
+                    },
+                    "items": [
+                        {
+                            "isReturn": false,
+                            "product": {
+                                "code": "E-001",
+                                "taxOptional": null,
+                                "description": "Laser Gun",
+                                "satProductCode": "",
+                                "enabled": true,
+                                "satProduct": null,
+                                "price": 1000.0,
+                                "details": "The Laser Gun is one of the many weapons that Gru is known to use.",
+                                "id": 4208881,
+                                "minimumPrice": 830.0,
+                                "barcode": "598374593847593485734",
+                                "basePrice": 1000.0,
+                                "quantity": 94.0,
+                                "boostSales": false,
+                                "satUnitCode": "",
+                                "pictureUrl": "https://s3.amazonaws.com/handy-product-picture/product_aitrun81j3syj0s2ra6wi9anm1868acc1a26.JPG",
+                                "externalId": null,
+                                "tax": {
+                                    "amount": 0.0,
+                                    "name": "IVA",
+                                    "id": 82,
+                                    "enabled": true
+                                },
+                                "boostSalesDescription": "",
+                                "unit": {
+                                    "code": "PZA",
+                                    "description": "Pieza",
+                                    "id": 46448,
+                                    "enabled": true
+                                },
+                                "hasBeenSold": false,
+                                "satUnit": null,
+                                "applyDiscounts": false,
+                                "family": {
+                                    "description": "Explosivos",
+                                    "id": 228559,
+                                    "enabled": true
+                                },
+                                "category": {
+                                    "description": "Weapons",
+                                    "id": 31166,
+                                    "enabled": true
+                                }
+                            },
+                            "quantity": 2.0,
+                            "comments": null,
+                            "originalPrice": 1000.0,
+                            "isReward": false,
+                            "taxOptional": null,
+                            "priceType": "REGULAR",
+                            "discount": null,
+                            "delivered": 0.0,
+                            "tax": {
+                                "amount": 0.0,
+                                "name": "IVA",
+                                "id": 82,
+                                "enabled": true
+                            },
+                            "promoIds": null,
+                            "discountPercentage": 0.0,
+                            "total": 2000.0,
+                            "price": 1000.0,
+                            "id": 99902583,
+                            "promoNames": null
+                        },
+                        {
+                            "isReturn": false,
+                            "product": {
+                                "code": "M-002",
+                                "taxOptional": {
+                                    "amount": 8.0,
+                                    "name": "IVA",
+                                    "id": 2,
+                                    "enabled": true
+                                },
+                                "description": "Airship",
+                                "satProductCode": "",
+                                "enabled": true,
+                                "satProduct": null,
+                                "price": 37200.0,
+                                "details": null,
+                                "id": 4208882,
+                                "minimumPrice": 24500.0,
+                                "barcode": null,
+                                "basePrice": 30000.0,
+                                "quantity": 10.0,
+                                "boostSales": false,
+                                "satUnitCode": "",
+                                "pictureUrl": "https://cdn.handy.la/products/generic.jpg",
+                                "externalId": null,
+                                "tax": {
+                                    "amount": 16.0,
+                                    "name": "IVA",
+                                    "id": 1,
+                                    "enabled": true
+                                },
+                                "boostSalesDescription": "",
+                                "unit": {
+                                    "code": "PZA",
+                                    "description": "Pieza",
+                                    "id": 46448,
+                                    "enabled": true
+                                },
+                                "hasBeenSold": false,
+                                "satUnit": null,
+                                "applyDiscounts": false,
+                                "family": {
+                                    "description": "Mecánicos",
+                                    "id": 228561,
+                                    "enabled": true
+                                },
+                                "category": {
+                                    "description": "Vehicles",
+                                    "id": 31167,
+                                    "enabled": true
+                                }
+                            },
+                            "quantity": 1.0,
+                            "comments": null,
+                            "originalPrice": 34800.0,
+                            "isReward": false,
+                            "taxOptional": null,
+                            "priceType": "REGULAR",
+                            "discount": null,
+                            "delivered": 0.0,
+                            "tax": {
+                                "amount": 16.0,
+                                "name": "IVA",
+                                "id": 1,
+                                "enabled": true
+                            },
+                            "promoIds": null,
+                            "discountPercentage": 0.0,
+                            "total": 34800.0,
+                            "price": 34800.0,
+                            "id": 99902582,
+                            "promoNames": null
+                        }
+                    ],
+                    "type": {
+                        "description": "Tipo de pedido efectivo y contabilizable",
+                        "id": 35801,
+                        "enabled": true
+                    },
+                    "exported": false,
+                    "deleted": true,
+                    "sellerComment": "Pedido super importante",
+                    "scheduledDateForDelivery": "2023-03-01T21:30:00Z",
+                    "latitude": null,
+                    "longitude": null,
+                    "accuracy": 0.0,
+                    "tookInPlace": false,
+                    "priceList": {
+                        "code": "LP001",
+                        "name": "Principal",
+                        "id": 35287,
+                        "enabled": true
+                    },
+                    "totalSales": 36800.000000,
+                    "totalTax": 4800.00,
+                    "totalBeforeTax": 32000.000000,
+                    "billable": false,
+                    "billed": false,
+                    "routeSalePaymentType": null,
+                    "dateCreated": "2023-02-26T06:37:42Z",
+                    "promoIds": null,
+                    "promoNames": null,
+                    "networkSignalQuality": -1,
+                    "creationSource": "WEB",
+                    "dateDeleted": "2023-02-26T07:12:16Z",
+                    "deletedBy": {
+                        "name": "German Arrieta",
+                        "extras": "The one and only",
+                        "id": 74120,
+                        "enabled": true,
+                        "username": "arrieta.ger@gmail.com"
+                    },
+                    "editedFrom": null,
+                    "isEdited": true,
+                    "salesType": "Preventa",
+                    "externalId": null
+                },
+                "isEdited": true,
+                "salesType": "Preventa",
+                "externalId": null
+            },
+            "isEdited": false,
+            "salesType": "Preventa",
+            "externalId": null
+        }
+    ]
+}

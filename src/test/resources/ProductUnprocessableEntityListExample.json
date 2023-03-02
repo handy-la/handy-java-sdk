@@ -1,0 +1,22 @@
+{
+    "errors": [
+        {
+            "object": "com.locus.product.Product",
+            "field": "price",
+            "rejected-value": "$500.00",
+            "message": "La propiedad Precio debe ser un número válido"
+        },
+        {
+            "object": "com.locus.product.Product",
+            "field": "family",
+            "rejected-value": null,
+            "message": "Selecciona una familia de producto"
+        },
+        {
+            "object": "com.locus.product.Product",
+            "field": "description",
+            "rejected-value": null,
+            "message": "La propiedad [Descripción] de la clase [Producto] no puede ser nulo"
+        }
+    ]
+}

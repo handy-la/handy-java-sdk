@@ -1,0 +1,59 @@
+{
+    "code": "TST-010",
+    "description": "Super Cool Product",
+    "price": 1890.000000,
+    "basePrice": 1750.000000,
+    "tax": {
+        "amount": 8.0,
+        "name": "IVA",
+        "id": 2,
+        "enabled": true
+    },
+    "taxOptional": null,
+    "quantity": 100.00,
+    "family": {
+        "description": "Mecánicos",
+        "id": 228561,
+        "enabled": true
+    },
+    "category": {
+        "description": "Weapons",
+        "id": 31166,
+        "enabled": true
+    },
+    "details": "The SR-6, more often referred to as just the Shrink Ray, is a laser weapon that shrinks its targets temporarily with an energy beam.",
+    "enabled": true,
+    "barcode": null,
+    "applyDiscounts": false,
+    "hasBeenSold": false,
+    "createdBy": {
+        "name": "German Arrieta",
+        "extras": "The one and only",
+        "id": 74120,
+        "enabled": true,
+        "username": "arrieta.ger@gmail.com"
+    },
+    "lastUpdatedBy": {
+        "name": "German Arrieta",
+        "extras": "The one and only",
+        "id": 74120,
+        "enabled": true,
+        "username": "arrieta.ger@gmail.com"
+    },
+    "dateCreated": "2023-02-25T22:51:06Z",
+    "lastUpdated": "2023-02-25T22:52:07Z",
+    "satProductCode": "",
+    "satUnitCode": "",
+    "boostSales": false,
+    "boostSalesDescription": "",
+    "externalId": null,
+    "unit": {
+        "code": "PZA",
+        "description": "Pieza",
+        "id": 46448,
+        "enabled": true
+    },
+    "satProduct": null,
+    "satUnit": null,
+    "minimumPrice": 1300.000000
+}

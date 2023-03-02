@@ -1,0 +1,6 @@
+{
+    "object": "com.locus.product.Product",
+    "field": "price",
+    "rejected-value": "$500.00",
+    "message": "La propiedad Precio debe ser un número válido"
+}
