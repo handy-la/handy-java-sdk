@@ -8,11 +8,11 @@ public class ProductTax {
 	
 	public ProductTax() {}
 
-	public ProductTax(int id, float monto, String nombre, boolean habilitado) {
+	public ProductTax(int id, float amount, String name, boolean enabled) {
 		this.id = id;
-		this.amount = monto;
-		this.name = nombre;
-		this.enabled = habilitado;
+		this.amount = amount;
+		this.name = name;
+		this.enabled = enabled;
 	}
 
 	public int getId() {
@@ -23,27 +23,27 @@ public class ProductTax {
 		this.id = id;
 	}
 
-	public float getMonto() {
+	public float getAmount() {
 		return amount;
 	}
 
-	public void setMonto(float monto) {
-		this.amount = monto;
+	public void setAmount(float amount) {
+		this.amount = amount;
 	}
 
-	public String getNombre() {
+	public String getName() {
 		return name;
 	}
 
-	public void setNombre(String nombre) {
-		this.name = nombre;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public boolean isHabilitado() {
+	public boolean isEnabled() {
 		return enabled;
 	}
 
-	public void setHabilitado(boolean habilitado) {
-		this.enabled = habilitado;
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
 	}
 }

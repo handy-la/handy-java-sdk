@@ -8,11 +8,11 @@ public class ProductUnit {
 	
 	public ProductUnit(){}
 
-	public ProductUnit(int id, String codigo, String descripcion, boolean habilitado) {
+	public ProductUnit(int id, String code, String description, boolean enabled) {
 		this.id = id;
-		this.code = codigo;
-		this.description = descripcion;
-		this.enabled = habilitado;
+		this.code = code;
+		this.description = description;
+		this.enabled = enabled;
 	}
 
 	public int getId() {
@@ -23,27 +23,27 @@ public class ProductUnit {
 		this.id = id;
 	}
 
-	public String getCodigo() {
+	public String getCode() {
 		return code;
 	}
 
-	public void setCodigo(String codigo) {
-		this.code = codigo;
+	public void setCode(String code) {
+		this.code = code;
 	}
 
-	public String getDescripcion() {
+	public String getDescription() {
 		return description;
 	}
 
-	public void setDescripcion(String descripcion) {
-		this.description = descripcion;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
-	public boolean isHabilitado() {
+	public boolean isEnabled() {
 		return enabled;
 	}
 
-	public void setHabilitado(boolean habilitado) {
-		this.enabled = habilitado;
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
 	}
 }

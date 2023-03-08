@@ -7,37 +7,43 @@ public class PriceList {
 	private boolean enabled;
 	
 	public PriceList(){}
-	
-	public PriceList(int id, String codigo, String nombre, boolean habilitada) {
+
+	public PriceList(int id, String code, String name, boolean enabled) {
 		this.id = id;
-		this.code = codigo;
-		this.name = nombre;
-		this.enabled = habilitada;
+		this.code = code;
+		this.name = name;
+		this.enabled = enabled;
 	}
+
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getCodigo() {
+
+	public String getCode() {
 		return code;
 	}
-	public void setCodigo(String codigo) {
-		this.code = codigo;
+
+	public void setCode(String code) {
+		this.code = code;
 	}
-	public String getNombre() {
+
+	public String getName() {
 		return name;
 	}
-	public void setNombre(String nombre) {
-		this.name = nombre;
+
+	public void setName(String name) {
+		this.name = name;
 	}
-	public boolean isHabilitada() {
+
+	public boolean isEnabled() {
 		return enabled;
 	}
-	public void setHabilitada(boolean habilitada) {
-		this.enabled = habilitada;
+
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
 	}
-	
-	
 }

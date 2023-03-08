@@ -8,11 +8,11 @@ public class Zone {
 	
 	public Zone() {}
 	
-	public Zone(int id, String color, String descripcion, boolean habilitada) {
+	public Zone(int id, String color, String description, boolean enabled) {
 		this.id = id;
 		this.color = color;
-		this.description = descripcion;
-		this.enabled = habilitada;
+		this.description = description;
+		this.enabled = enabled;
 	}
 
 	public int getId() {
@@ -31,19 +31,19 @@ public class Zone {
 		this.color = color;
 	}
 
-	public String getDescripcion() {
+	public String getDescription() {
 		return description;
 	}
 
-	public void setDescripcion(String descripcion) {
-		this.description = descripcion;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
-	public boolean isHabilitada() {
+	public boolean isEnabled() {
 		return enabled;
 	}
 
-	public void setHabilitada(boolean habilitada) {
-		this.enabled = habilitada;
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
 	}
 }
