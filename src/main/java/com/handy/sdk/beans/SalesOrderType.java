@@ -7,10 +7,10 @@ public class SalesOrderType {
 	
 	public SalesOrderType() {}
 
-	public SalesOrderType(int id, String descripcion, boolean habilitado) {
+	public SalesOrderType(int id, String description, boolean enabled) {
 		this.id = id;
-		this.description = descripcion;
-		this.enabled = habilitado;
+		this.description = description;
+		this.enabled = enabled;
 	}
 
 	public int getId() {
@@ -21,21 +21,20 @@ public class SalesOrderType {
 		this.id = id;
 	}
 
-	public String getDescripcion() {
+	public String getDescription() {
 		return description;
 	}
 
-	public void setDescripcion(String descripcion) {
-		this.description = descripcion;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
-	public boolean isHabilitado() {
+	public boolean isEnabled() {
 		return enabled;
 	}
 
-	public void setHabilitado(boolean habilitado) {
-		this.enabled = habilitado;
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
 	}
-	
-	
+
 }

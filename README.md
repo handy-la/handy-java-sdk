@@ -18,8 +18,9 @@ El documento está dividido en las siguientes secciones:
  - [Implementación de Handy Java SDK](#implementacion-de-handy-java-sdk)
 	 - Configuración de variable de entorno para API Token
 	 - Inicialización del SDK
-	 - *JobHandler* y caché
-	 - *JobHandler* personalizado
+	 - JobHandler
+	 	- Personalizado *(Recomendado)*
+	 	- JobHandler default y Caché
 	 - Clases principales
 
  - [Construcción desde el código fuente](#contruccion-desde-el-codigo-fuente)
@@ -56,7 +57,7 @@ Ejecuta lo siguiente para recargar el ambiente
 
 **Linux**
 
-    vim ~/.bashrc
+	vim ~/.bashrc
 
 Editar el archivo agregando la siguiente línea al final
 
@@ -81,34 +82,41 @@ Los parámetros corresponden a la siguiente configuración del SDK.
 | autoRetry | Determina si se debe intentar nuevamente el llamado al API en caso de haber alcanzado el límite de ejecuciones en un minuto (500). | *false* |
 |jobHandler | Handler encargado del manejo de datos obtenidos por el job. | *new SalesOrderJobHandler()* |
 
-## *JobHandler* y caché
+## JobHandler
 
 El SDK incluye una interfaz *JobHandler* que es implementada por las clases encargadas del manejo de los datos obtenidos por el job.
 
 	public  interface JobHandler {
 		public void process(Set<SalesOrder> dataToProcess);
 	}
-Por default, el SDK utiliza la clase *SalesOrderJobHandler*, la cual almacena los datos obtenidos por el job en una caché para que puedan ser consultados en cualquier momento.
-Puedes consultar dichos datos de la siguiente manera:
 
-		HandySDKCache cache = HandySDKCache.getInstance();
-		Set<SalesOrder> salesOrderSet = (Set<SalesOrder>)cache.getCacheValue("SalesOrderJobData");
-		// cache.getCacheValue("SalesOrderJobData", true); // Si deseas limpiar la caché después de obtener los datos.
+Para trabajar con esta interfaz se puede hacer de dos maneras:
 
-## *JobHandler* personalizado
+### Personalizado *(Recomendado)*
 
-Sabemos que esa implementación de *JobHandler* pudiera no encajar con las necesidades de todos nuestros clientes, por lo que es posible crear una implementación personalizada para procesar los datos de la forma que mejor se adapte a tu proyecto.
+Sabemos que las necesidades de nuestros clientes son distintas, por lo que es posible crear una implementación personalizada de JobHandler para procesar los datos de la forma que mejor se adapte a tu proyecto. Es por eso también que esta opción es la que **te recomendamos** a la hora de trabajar con el SDK.
 
 	public class CustomJobHandler implements JobHandler {
 		@Override
 		public void process(Set<SalesOrder> dataToProcess) {
-			// Aquí es donde tienes que hacer tu magia.
+			// Aquí es donde haces tu magia.
 		}
 	}
 
 Una vez que tengas tu implementación de *JobHandler* puedes configurarla al inicializar el SDK con los métodos mencionados anteriormente.
 
 	HandySDK.init(new CustomJobHandler());
+
+Y listo! El job procesará los datos obtenidos de acuerdo al comportamiento que hayas definido.
+
+### JobHandler default y caché
+
+El SDK incluye la clase *SalesOrderJobHandler* como implementación por default de JobHandler, sólo se recomienda su uso para escenarios de prueba del SDK. Esta clase almacena los datos obtenidos por el job en una caché para que puedan ser consultados en cualquier momento.
+Puedes consultar dichos datos de la siguiente manera:
+
+	HandySDKCache cache = HandySDKCache.getInstance();
+	Set<SalesOrder> salesOrderSet = (Set<SalesOrder>)cache.getCacheValue("SalesOrderJobData");
+	// cache.getCacheValue("SalesOrderJobData", true); // Si deseas limpiar la caché después de obtener los datos.
 
 ## Clases principales
 
@@ -169,7 +177,7 @@ Las pruebas unitarias se ejecutan cada vez que se contruye el proyecto, pero tam
 
 Las pruebas de integración no son ejecutadas al construir el proyecto, para ejecutarlas es necesario hacerlo manualmente desde el IDE o configurar el evento de Maven verify.
 
-		mvn verify
+	mvn verify
 
 **Nota:** Algunos IDE como Eclipse, no acceden a las variables de entorno del sistema operativo. Por lo que es necesario configurar la variable HANDY_API_TOKEN en cada prueba que se requiera. En caso de correr las pruebas desde terminal no es necesario realizar esta configuración adicional.
 
@@ -177,6 +185,10 @@ Las pruebas de integración no son ejecutadas al construir el proyecto, para eje
 
 Para construir la librería es necesario correr el siguiente comando de Maven.
 
-		mvn clean package
+	mvn clean package
 
-La librería generada se encuentra en la carpeta */target* del proyecto.
+El comando generará dos versiones de la librería en la carpeta */target* del proyecto:
+- handy-core-sdk-{version}.jar
+- handy-core-sdk-{version}-jar-with-dependencies.jar
+
+La diferencia entre dichas versiones es que la segunda incluye todas las dependencias utilizadas por el SDK por lo que no es necesario agregarlas manualmente.

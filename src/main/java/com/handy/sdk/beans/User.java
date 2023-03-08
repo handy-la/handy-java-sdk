@@ -9,12 +9,12 @@ public class User {
 	
 	public User() {}
 
-	public User(int id, String nombre, String extras, String username, boolean habilitado) {
+	public User(int id, String name, String extras, String username, boolean enabled) {
 		this.id = id;
-		this.name = nombre;
+		this.name = name;
 		this.extras = extras;
 		this.username = username;
-		this.enabled = habilitado;
+		this.enabled = enabled;
 	}
 
 	public int getId() {
@@ -25,12 +25,12 @@ public class User {
 		this.id = id;
 	}
 
-	public String getNombre() {
+	public String getName() {
 		return name;
 	}
 
-	public void setNombre(String nombre) {
-		this.name = nombre;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getExtras() {
@@ -49,11 +49,13 @@ public class User {
 		this.username = username;
 	}
 
-	public boolean isHabilitado() {
+	public boolean isEnabled() {
 		return enabled;
 	}
 
-	public void setHabilitado(boolean habilitado) {
-		this.enabled = habilitado;
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
 	}
+
+	
 }

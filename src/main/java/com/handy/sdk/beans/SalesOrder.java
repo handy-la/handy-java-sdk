@@ -29,7 +29,7 @@ public class SalesOrder {
 	private float totalBeforeTax;
 	private boolean billable;
 	private boolean billed;
-	private String routeSalePaymentType; ////////////
+	private String routeSalePaymentType;
 	private LocalDateTime dateCreated;
 	private String promoIds;
 	private String promoNames;
